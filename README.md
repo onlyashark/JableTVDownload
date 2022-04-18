@@ -16,6 +16,7 @@ source jable/bin/activate. # MacOS
 `pip install -r requirements.txt`
 
 安裝 [FFmpeg] (未安裝也能下載 但影片拖拉時間軸會有卡幀情況發生)
+[安裝教學]
 
 ### 執行程式(Execute)
 `python main.py`
@@ -33,7 +34,8 @@ source jable/bin/activate. # MacOS
 如果覺得好用 再麻煩給個星星好評 謝謝!!
 
 
-[FFmpeg]:<https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z>  
+[FFmpeg]:<https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z>
+[安裝教學]:<https://www.gushiciku.cn/pl/p5e4/zh-tw>
 
 ### Argument parser
 `$python main.py -h`
