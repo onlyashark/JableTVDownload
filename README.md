@@ -16,6 +16,7 @@ source jable/bin/activate. # MacOS
 `pip install -r requirements.txt`
 
 安裝 [FFmpeg] (未安裝也能下載 但影片拖拉時間軸會有卡幀情況發生)
+
 [安裝教學]
 
 ### 執行程式(Execute)
