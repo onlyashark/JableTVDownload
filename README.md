@@ -32,18 +32,8 @@ source jable/bin/activate. # MacOS
 
 如果覺得好用 再麻煩給個星星好評 謝謝!!
 
-## #####選擇性使用(Optional use)#####
 
-### 使用FFmpeg轉檔優化 : 參數能自己調(Use FFmpeg encode) 
-`cd ipx-486`  
-`ffmpeg -i ipx-486.mp4 -c:v libx264 -b:v 3M -threads 5 -preset superfast f_ipx-486.mp4`  
-  
-![image](https://github.com/hcjohn463/JableDownload/blob/main/img/ff.PNG)
-
-### 轉檔完成(Finish encode)
-![image](https://github.com/hcjohn463/JableDownload/blob/main/img/different.PNG)
-
-[FFmpeg]:<https://www.ffmpeg.org/>  
+[FFmpeg]:<https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z>  
 
 ### Argument parser
 `$python main.py -h`
@@ -61,6 +51,8 @@ source jable/bin/activate. # MacOS
 ![](https://i.imgur.com/DKFrD7T.png)
 
 ### 更新日誌(Update log)
+
+ 🦈 2022/04/19 新增自動轉碼 v1.8.1
 
  🚗 2022/1/25 下載結束後抓封面 v1.8   
  🐶 2021/6/4 更改m3u8得到方法(正則表達式) v1.7  
