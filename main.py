@@ -32,8 +32,8 @@ if(len(args.url) != 0):
 elif(args.random == True):
     url = av_recommand()
 else:
-    # 使用者輸入Jable網址
-    url = input('輸入jable網址:')
+    # 使用者輸入番號
+    url = "https://jable.tv/videos/"+input('輸入番號:')+"/"
 
 # In[3]:
 
